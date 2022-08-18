@@ -11,13 +11,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cookie cookieOne = new Cookie("green");
-        Cookie cookieTwo = new Cookie("blue");
+//        Cookie cookieOne = new Cookie("green");
+//        Cookie cookieTwo = new Cookie("blue");
+//
+//        cookieOne.setColor("yellow");
+//
+//        System.out.println(cookieOne.getColor());
+//        System.out.println(cookieTwo.getColor());
 
-        cookieOne.setColor("yellow");
+        LinkedListCustom myLinkedList = new LinkedListCustom(4);
 
-        System.out.println(cookieOne.getColor());
-        System.out.println(cookieTwo.getColor());
+
 
 
     }
