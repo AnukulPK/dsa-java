@@ -20,7 +20,10 @@ public class Main {
 //        System.out.println(cookieTwo.getColor());
 
         LinkedListCustom myLinkedList = new LinkedListCustom(4);
-
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+        myLinkedList.getLength();
+        myLinkedList.printList();
 
 
 
