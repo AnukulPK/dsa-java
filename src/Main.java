@@ -25,7 +25,8 @@ public class Main {
         myLinkedList.getLength();
 //        myLinkedList.printList();
         myLinkedList.append(8);
-        myLinkedList.printList();
+
+        System.out.println(myLinkedList.removeLast().value);
 
 
 
