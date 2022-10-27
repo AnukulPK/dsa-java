@@ -19,14 +19,16 @@ public class Main {
 //        System.out.println(cookieOne.getColor());
 //        System.out.println(cookieTwo.getColor());
 
-        LinkedListCustom myLinkedList = new LinkedListCustom(4);
-        myLinkedList.getHead();
-        myLinkedList.getTail();
-        myLinkedList.getLength();
+        LinkedListCustom myLinkedList = new LinkedListCustom(2);
+//        myLinkedList.getHead();
+//        myLinkedList.getTail();
+//        myLinkedList.getLength();
 //        myLinkedList.printList();
-        myLinkedList.append(8);
+//        myLinkedList.append(8);
+        myLinkedList.append(3);
+        myLinkedList.prepend(1);
 
-        System.out.println(myLinkedList.removeLast().value);
+        myLinkedList.printList();
 
 
 
