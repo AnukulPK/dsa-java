@@ -28,7 +28,11 @@ public class Main {
         myLinkedList.append(3);
         myLinkedList.prepend(1);
 
-        myLinkedList.printList();
+//        myLinkedList.printList();
+        System.out.println(myLinkedList.removeFirst().value);
+        System.out.println(myLinkedList.removeFirst().value);
+        System.out.println(myLinkedList.removeFirst().value);
+        System.out.println(myLinkedList.removeFirst());
 
 
 
