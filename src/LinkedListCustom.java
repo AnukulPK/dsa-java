@@ -104,4 +104,17 @@ public class LinkedListCustom {
         }
         return temp;
     }
+
+    public Node get(int index){
+        if(index>=length || index<0 ){
+            return null;
+        }
+
+        Node temp = head;
+        for(int i=0;i<index;i++){
+            temp=temp.next;
+        }
+        return temp;
+
+    }
 }
