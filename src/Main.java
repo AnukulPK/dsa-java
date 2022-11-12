@@ -11,34 +11,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        Cookie cookieOne = new Cookie("green");
-//        Cookie cookieTwo = new Cookie("blue");
-//
-//        cookieOne.setColor("yellow");
-//
-//        System.out.println(cookieOne.getColor());
-//        System.out.println(cookieTwo.getColor());
 
-        LinkedListCustom myLinkedList = new LinkedListCustom(0);
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getLength();
-//        myLinkedList.printList();
-//        myLinkedList.append(8);
-        myLinkedList.append(2);
-        myLinkedList.insert(1,1);
-//        myLinkedList.append(23);
-//        myLinkedList.append(7);
-//        myLinkedList.set(1,4);
+        LinkedListCustom myLinkedList = new LinkedListCustom(11);
 
-//        myLinkedList.printList();
-//        System.out.println(myLinkedList.removeFirst().value);
-//        System.out.println(myLinkedList.removeFirst().value);
-//        System.out.println(myLinkedList.removeFirst().value);
-//        System.out.println(myLinkedList.removeFirst());
-//        System.out.println(myLinkedList.get(2).value);
+        myLinkedList.append(3);
+        myLinkedList.append(23);
+        myLinkedList.append(7);
 
+        myLinkedList.remove(2);
         myLinkedList.printList();
+
+
 
     }
 }
