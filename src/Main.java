@@ -12,13 +12,15 @@ public class Main {
     public static void main(String[] args) {
 
 
-        LinkedListCustom myLinkedList = new LinkedListCustom(11);
+        LinkedListCustom myLinkedList = new LinkedListCustom(1);
 
+        myLinkedList.append(2);
         myLinkedList.append(3);
-        myLinkedList.append(23);
-        myLinkedList.append(7);
+        myLinkedList.append(4);
 
-        myLinkedList.remove(2);
+//        myLinkedList.remove(2);
+        myLinkedList.printList();
+        myLinkedList.reverse();
         myLinkedList.printList();
 
 
