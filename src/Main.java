@@ -23,11 +23,12 @@ public class Main {
 //        myLinkedList.reverse();
 //        myLinkedList.printList();
 
-        DoublyLinkedListCustom myDLL = new DoublyLinkedListCustom(7);
+        DoublyLinkedListCustom myDLL = new DoublyLinkedListCustom(1);
 
-        myDLL.getHead();
-        myDLL.getTail();
-        myDLL.getLength();
+//        myDLL.getHead();
+//        myDLL.getTail();
+//        myDLL.getLength();
+        myDLL.append(2);
         myDLL.printList();
 
 
