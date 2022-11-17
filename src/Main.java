@@ -29,6 +29,9 @@ public class Main {
 //        myDLL.getTail();
 //        myDLL.getLength();
         myDLL.append(2);
+        System.out.println(myDLL.removeLast().value);
+        System.out.println(myDLL.removeLast().value);
+        System.out.println(myDLL.removeLast());
         myDLL.printList();
 
 
