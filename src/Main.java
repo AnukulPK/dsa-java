@@ -48,14 +48,19 @@ public class Main {
 //        myDLL.remove(1);
 //        myDLL.printList();
         
-        Stack myStack = new Stack(7);
+//        Stack myStack = new Stack(7);
 //        myStack.getTop();
 //        myStack.getHeight();
-        myStack.push(23);
-        myStack.push(3);
-        myStack.push(11);
-        myStack.pop();
-        myStack.printStack();
+//        myStack.push(23);
+//        myStack.push(3);
+//        myStack.push(11);
+//        myStack.pop();
+//        myStack.printStack();
+        Queue myQueue = new Queue(7);
+        myQueue.getFirst();
+        myQueue.getLast();
+        myQueue.getLength();
+        myQueue.printQueue();
         
         
 
