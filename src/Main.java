@@ -56,10 +56,11 @@ public class Main {
 //        myStack.push(11);
 //        myStack.pop();
 //        myStack.printStack();
-        Queue myQueue = new Queue(7);
-        myQueue.getFirst();
-        myQueue.getLast();
-        myQueue.getLength();
+        Queue myQueue = new Queue(1);
+//        myQueue.getFirst();
+//        myQueue.getLast();
+//        myQueue.getLength();
+        myQueue.enqueue(2);
         myQueue.printQueue();
         
         
