@@ -5,12 +5,11 @@ public class Main {
 
         HashTable myHashTable = new HashTable();
         myHashTable.set("nails",100);
-        myHashTable.set("tiles",100);
-        myHashTable.set("lumber",100);
+        myHashTable.set("tiles",50);
+        myHashTable.set("lumber",80);
 
-        myHashTable.set("bolts",100);
-        myHashTable.set("screws",100);
-        myHashTable.printTable();
+        System.out.println(myHashTable.get("lumber"));
+        System.out.println(myHashTable.get("bolts"));
     }
 
 
